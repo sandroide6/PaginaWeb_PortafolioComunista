@@ -1,0 +1,135 @@
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+.header{
+    border: 2px solid darkgoldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform:uppercase;
+    background-color: darkred;
+}
+.header__menu{
+    color: gold;
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu ul{
+    display: flex;
+}
+.header__menu li{
+    display: inherit;
+}
+.header__menu a{
+    color: peru;
+    padding: 15px;
+    font-weight: 800;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif ;
+}
+.header__menu a:hover{
+    background-color: rgba(223, 127, 3, 0.425);
+    color: rgb(153, 141, 119);
+    border-radius: 10px;
+}
+.container{
+    width: 1000px;
+    margin:0 auto;
+    
+   
+}
+
+.banner{
+    color: goldenrod;
+    background-color:lightgray
+}
+
+.banner .banner__hero{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.banner__text-hero{
+    padding: 80px 0 0 80px;
+    font-family: monospace;
+    font-size: 18px;
+    
+}
+.portafolio{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.portafolio__box{
+    margin: 70px;
+    box-shadow: 0px 2px 10px 2px rgb(82, 6, 6);
+    border-radius: 20px;
+    width: 30%;
+    
+}
+.portafolio__box img{
+     border-radius: 20px;
+     
+}
+
+.portafolio__card {
+    margin: 20px;
+    padding: 5px;
+}
+.portafolio__card button{
+    background-color: teal;
+    font-weight: 800;
+font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    border-radius: 7px;
+
+}
+
+.title{
+    border-radius: 8px;
+    background-color: darkred;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+
+.proyectos{
+   display: flex;
+   text-align: center;
+}
+.proyecto__box{
+    margin: 15px;
+    box-shadow: 0 px 2px 10px 4px darkgoldenrod;
+    border-radius: 10px;
+    width: 50%;
+
+   
+}
+.proyecto__box img{
+    border-radius: 10px;
+   
+    
+}
+
+.proyecto__body{
+    box-shadow: 0px -10px 10px 2px rgba(255, 38, 0, 0.568);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.footer{
+    color: black;
+    background-color: darkred;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.audio{
+
+color: darkred;
+
+}
